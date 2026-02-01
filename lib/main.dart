@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('Bienvenido a mi actividad integradora en Flutter'),
+            const Text('Primer cambio realizado'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -114,11 +114,11 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                  ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
-                    content: Text('Prueba realizada con éxito.'),
+                    content: Text('La curiosidad te mata 💀 ¿No?'),
                   ),
                 );
               },
-              child: const Text('Tócame 😎'),
+              child: const Text('No me toques 😡'),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
